@@ -2,6 +2,8 @@ cmake_minimum_required(VERSION 3.0)
 include(version.cmake)
 project(baseclasses VERSION ${baseclasses_VERSION})
 
+add_definitions(/MP /d2FH4- /MT)
+
 list(APPEND CMAKE_MODULE_PATH "${CMAKE_CURRENT_SOURCE_DIR}/cmake-modules")
 include(AddPCH)
 
